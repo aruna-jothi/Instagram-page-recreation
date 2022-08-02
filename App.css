@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+.App{
+  width: 100%;
+  height: auto;
+}
+.App-header{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid lightgray;
+}
+.head1{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  height: 80px;
+}
+.logo-img{
+  display: flex;
+    width: 100%;
+}
+.head1 img{
+  width: 120px;
+  height: auto;
+}
+
+.headicons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-end;
+  padding-left: 100px;
+}
+.inside{
+  display: flex;
+    align-content: center;
+    align-items: center;
+    height: 35px;
+    padding: 4px;
+}
+.icon1, .icon2{
+  padding: 4px;
+}
+.icon1 img{
+  width: 50px;
+  height: 35px;
+}
+.icon2 img{
+  width: 50px;
+  height: 50px;
+}
+.main-body{
+  background-color: #fafafa;
+  width: 100%;
+  padding-top: 80px;
+}
+.user{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    padding-left: 10px;
+}
+.profile-img img{
+  width: 40px;
+  height: 40px;
+}
+.insta_posts img{
+  width: 100%;
+  border: 1px solid lightgray;
+}
+.username{
+  padding-left: 10px;
+  height: 40px;
+}
+.likes_icon{
+  height: 60px;
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.likes_icon button{
+  border: none;
+  cursor: pointer;
+}
+.heart_icon{
+  width: 50px;
+}
+.heart_icon img{
+  height: 50px;
+    width: 50px;
+}
+.comment img{
+  height: 50px;
+  width: 50px;
+}
+.forward img{
+  height: 50px;
+  width: 50px;
+}
+.save{
+  width: 300px;
+    display: flex;
+    justify-content: flex-end
+}
+.save img{
+  width: 60px;
+    height: 65px;
+    padding-top: 10px;
+}
